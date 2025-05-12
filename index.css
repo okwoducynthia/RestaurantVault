@@ -827,6 +827,9 @@
 }
 
 @media (max-width: 480px) {
+  .header-container {
+    background-attachment: scroll;
+  }
   .nav-links img {
     width: 20%;
   }
@@ -866,6 +869,7 @@
 @media (max-width: 390px) {
   .header-container {
     height: 65vh;
+    background-attachment: scroll;
   }
   .History-container {
     height: 45.6rem;
