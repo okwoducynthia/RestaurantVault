@@ -25,6 +25,7 @@
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* ==NAVBAR SECTION STARTS HERE== */
@@ -549,6 +550,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .event-heading {
   display: flex;
