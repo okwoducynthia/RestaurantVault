@@ -848,6 +848,9 @@
   .wine-heading h1 {
     font-size: 35px;
   }
+  .order-images div img {
+    height: 50vh;
+  }
   .order-heading h1 {
     font-size: 30px;
   }
@@ -865,12 +868,42 @@
 
 @media (max-width: 390px) {
   .header-container {
-    height: 65vh;
+    height: 75vh;
   }
   .History-container {
     height: 45.6rem;
   }
   .menu-food {
     height: 35rem;
+  }
+  .order-images div img {
+    height: 40vh
+  }
+  .gallery-first img {
+    height: 40vh;
+  }
+  .gallery-second {
+    height: 40vh;
+  }
+  .gallery-third img {
+    height: 40vh;
+  }
+  .gallery-forth img {
+    height: 40vh;
+  }
+  .gallery-fifth img {
+    height: 40vh;
+  }
+  .gallery-sixth img {
+    height: 40vh;
+  }
+  .outlet-heading h1 {
+    width: 100%;
+  }
+  .event-container {
+    height: 70vh;
+  }
+  .footer-section {
+    height: 70vh;
   }
 }
