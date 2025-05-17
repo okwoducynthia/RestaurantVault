@@ -743,15 +743,24 @@
 
 
 @media (max-width: 834px) {
+  .nav-links img {
+    width: 12%;
+  }
+  .header-container {
+    height: 70vh;
+  }
   .hero-heading h1 {
-    font-size: 55px;
+    font-size: 35px;
     width: 90%;
   }
   .hero-heading button {
-    margin-top: 50px;
+    margin-top: 15px;
   }
   .hero-heading div {
     margin-top: 15px;
+  }
+  .History-container {
+    height: 100vh;
   }
   .Menu-container {
     flex-direction: column;
@@ -784,7 +793,7 @@
     flex-direction: column;
   }
   .order-images div {
-    width: 70%;
+    width: 60%;
   }
   .order-images div img {
     width: 100%;
@@ -815,9 +824,49 @@
   .event-heading h1 {
     font-size: 40px;
   }
-}
+} 
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
+  .header-container {
+    height: 110vh;
+  }
+  .History-container {
+    height: 130vh;
+  }
+  .Menu-container > div {
+    height: 110vh;
+  }
+  .gallery-first img {
+    height: 70vh;
+  }
+  .gallery-second {
+    height: 70vh;
+  }
+  .gallery-third img {
+    height: 70vh;
+  }
+  .gallery-forth img {
+    height: 70vh;
+  }
+  .gallery-fifth img {
+    height:70vh;
+  }
+  .gallery-sixth img {
+    height: 70vh;
+  }
+  .outlet-images div img {
+    height: 45vh;
+  }
+  .outlet-images div {
+    height: 70vh;
+   margin-bottom: 30px;
+  }
+  .outlet-images div img {
+    height: 70vh;
+  }
+  .event-container {
+    height: 130vh;
+  }
   .History-description h1 {
     font-size: 40px;
   }
@@ -832,12 +881,6 @@
   }
   .hero-heading h1 {
     font-size: 40px;
-  }
-  .hero-heading button {
-    margin-top: -20px;
-  }
-  .History-container {
-    height: 40.6rem;
   }
   .menu-bar {
     height: 30rem;
@@ -871,10 +914,10 @@
     height: 75vh;
   }
   .History-container {
-    height: 45.6rem;
+    height: 85vh;
   }
-  .menu-food {
-    height: 35rem;
+  .Menu-container > div {
+    height: 65vh;
   }
   .order-images div img {
     height: 40vh
@@ -897,13 +940,29 @@
   .gallery-sixth img {
     height: 40vh;
   }
+  .outlet-images div img {
+    height: 45vh;
+  }
+  .outlet-images div:nth-of-type(2) {
+    margin-top: -12rem;
+  }
+  .outlet-images div:nth-of-type(3) {
+    margin-top: -12rem;
+  }
+  .outlet-images div:nth-of-type(4) {
+    margin-top: -12rem;
+  }
+  .outlet-images div:nth-of-type(5) {
+    margin-top: -12rem;
+  }
   .outlet-heading h1 {
     width: 100%;
   }
   .event-container {
     height: 70vh;
+    margin-top: -13.5rem;
   }
   .footer-section {
-    height: 70vh;
+    height: 65vh;
   }
 }
